@@ -20,6 +20,11 @@
   background-color: #151515;
 }
 
+.sidebar {
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+}
+
 /* .grid-cols-custom-2 {
   grid-template-columns: repeat(6, minmax(5rem, 1fr));
 } */
