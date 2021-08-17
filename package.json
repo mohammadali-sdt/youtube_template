@@ -2,7 +2,7 @@
   "name": "first_exercise",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/script.js",
   "scripts": {
     "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.5"
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
   }
 }
