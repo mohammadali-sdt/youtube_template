@@ -25,6 +25,27 @@
   overflow-y: scroll;
 }
 
+@media screen and (max-width: 25em) {
+  .section-2 {
+    display: flex;
+  }
+  .menu{
+    flex-wrap: wrap;
+  }
+  .search-form {
+    margin-left: 0.5rem;
+  }
+  .search-form input {
+    width: 0 !important;
+  }
+  .gallery-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* .grid-cols-custom-2 {
   grid-template-columns: repeat(6, minmax(5rem, 1fr));
 } */
