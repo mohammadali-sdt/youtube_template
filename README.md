@@ -1,3 +1,3 @@
 # Youtube Template
 
-this is the first project, just for learning :)
+the youtube template !. you can see it on https://youtubi-mohammadali.netlify.app/ .
